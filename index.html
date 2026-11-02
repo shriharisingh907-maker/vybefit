@@ -74,4 +74,12 @@ if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
   window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(console.error));
 }
 </script>
-</body></html>
+  <div class="progress-box">
+  <h2>🏋️ My Workout Progress</h2>
+  <p>Keep going! 💪</p>
+  <button onclick="alert('Great Job! Keep Training!')">
+    Check My Progress
+  </button>
+  </div>
+</body>
+</html>
